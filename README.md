@@ -1,13 +1,12 @@
-Application Code Buddy: Your AI-powered Code Assistant
-Description:
+# Application Code Buddy: Your AI-powered Code Assistant
 
 Application Code Buddy is a software application designed to assist developers with various tasks related to understanding and maintaining their codebase. It leverages the power of artificial intelligence (AI) and natural language processing (NLP) to provide functionalities such as:
 
-Detailed code summaries: Get a concise overview of the application's functionality.
-Code refactoring and cleanup suggestions: Identify potential improvements to enhance code quality and maintainability.
-Code reusability recommendations: Discover opportunities to reuse existing code within the application.
-Test case generation: Generate automated test cases based on the code's logic.
-Answering questions about the code: Ask questions about the code and receive informative answers derived from code analysis and documentation.
+- Detailed code summaries: Get a concise overview of the application's functionality.
+- Code refactoring and cleanup suggestions: Identify potential improvements to enhance code quality and maintainability.
+- Code reusability recommendations: Discover opportunities to reuse existing code within the application.
+- Test case generation: Generate automated test cases based on the code's logic.
+- Answering questions about the code: Ask questions about the code and receive informative answers derived from code analysis and documentation.
 Features:
 
 Agent-based architecture: Utilizes a central agent that coordinates various custom tools for efficient processing.

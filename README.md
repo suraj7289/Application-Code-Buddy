@@ -12,11 +12,11 @@ Features:
 Agent-based architecture: Utilizes a central agent that coordinates various custom tools for efficient processing.
 Chunking and embedding: Splits code into smaller chunks and generates vector representations for similarity search.
 Similarity search engine: Locates relevant documentation based on code similarity.
-Large Language Model (LLM): Leverages Google Gemini Model for advanced analysis and response generation.
+Large Language Model (LLM): I have used Google Gemini Model (you can have your own LLM and related keys) in .env file for response generation.
 Streamlit UI: User-friendly interface for uploading code zip files and interacting with the application.
 Getting Started:
 
-Prerequisites:
+# Prerequisites:
 
 Python 3.x
 Required libraries (listed in requirements.txt)
@@ -25,38 +25,29 @@ Installation:
 Clone this repository:
 
 Bash
-git clone https://github.com/your-username/application-code-buddy.git
-Use code with caution.
+git clone https://github.com/suraj7289/Application-Code-Buddy.git
+
 Navigate to the project directory:
 
 Bash
 cd application-code-buddy
-Use code with caution.
-Install dependencies:
 
-Bash
+# Install dependencies:
+
 pip install -r requirements.txt
-Use code with caution.
-Usage:
 
-Run the application:
+# Run the application:
 
-Bash
-python app.py
-Use code with caution.
-Access the Streamlit UI:
+streamlit run app.py
 
-Open a web browser and navigate to http://localhost:8501.
-Upload your application code as a ZIP file.
-
-Enter your query and click "Ask Agent".
+Upload your application code as a ZIP file and start chatting with the Code Buddy.
 
 The application will analyze your code and respond with relevant information.
 
-Custom Prompts:
+# Custom Prompts:
 
 Separate prompt files are provided for each custom tool and the agent. These files can be customized to tailor the behavior of the application to your specific needs.
 
-Disclaimer:
+# Disclaimer:
 
 This application is still under development and may not be suitable for production use. We encourage you to use it for educational and experimental purposes only.

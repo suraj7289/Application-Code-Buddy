@@ -1,0 +1,5 @@
+langchain
+docx
+langchain-community
+langchain_google_genai
+faiss-cpu
